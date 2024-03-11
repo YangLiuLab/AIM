@@ -22,9 +22,8 @@ We provided three experimental datasets (Origami_PAINT, Microtublue_3d and Tissu
 ## Example files
 We provide four main MATLAB codes as examples to demonstrate how to use AIM to perform drift correction using big SMLM dataset with a large field of view.
 <p>
-<b>example_ExperimentalData.m: </b>This code performs drift correction with AIM on 2D or 3D localization coordinates of experimental data. Experimental dataset.
+<b>example_ExperimentalData.m: </b>This code performs drift correction with AIM on 2D or 3D localization coordinates of experimental data. Sample experimental data are avaialble at <a href = "https://doi.org/10.5061/dryad.2v6wwpzw3" title = "[Dryad](https://doi.org/10.5061/dryad.2v6wwpzw3)"> Dryad</a>.
 </p>
-
 <p>
 <b> example_code_2D.m </b>: This code compares the performance of drift correction for AIM, RCC and DME using 2D localization coordinates for experimental dataset of DNA origami (Origami_PAINT.mat) or simulated data (simulationSMLM.mat).
 </p>
