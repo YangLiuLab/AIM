@@ -3,13 +3,6 @@ Adaptive Intersection Maximization (AIM) is a high-speed drift correction lgorit
 
 The details are presented in our paper entitled "Towards drift-free high-throughput nanoscopy through adaptive intersection maximization".
 
-## Example files
-We provide 4 main MATLAB codes as example to demonstrate how to use AIM.
-example_ExperimentalData.m: This code performs drift correction with AIM on 2D or 3D localization coordinates of experimental data.
-example_code_2D.m: This code compares the performance of drift correction for AIM, RCC and DME using 2D localization coordinates of experimental data of DNA origami or simulated data.
-example_code_3D.m: This code compares the performance of drift correction for AIM, RCC and DME using 3D localization coordinates of experimental data of simulated data or or experimental data of microtubules.
-example_code_FigureS1.m: This code is used to reproduce Supplementary Figure S1, which shows drift tracking precision under a wide range of image sizes from 128×128 pixels to 2048×2048 pixels.
-
 All the codes under \DME_RCC are from https://github.com/qnano/drift-estimation published in Jelmer Cnossen, Tao Ju Cui, Chirlmin Joo, and Carlas Smith, "Drift correction in localization microscopy using entropy minimization," Opt. Express 29, 27961-27974 (2021).
 
 ## Hardware requirement: 
@@ -24,8 +17,14 @@ Users can direacly download the codes and run the demo code on MATLAB.
 Users need to replace the file name when processing users' own datasets.
 
 ## Demo datasets:
-We provide the code (simulationSMLM.m) to generate the simulation datasets.
-We also provide three experimental datasets in the Data folder for user testing.
+We provide three experimental datasets (Origami_PAINT, Microtublue_3d and Tissue_colon) available at Dryad (https://doi.org/10.5061/dryad.2v6wwpzw3) for user testing.
+
+## Example files
+We provide four main MATLAB codes as examples to demonstrate how to use AIM.
+example_ExperimentalData.m: This code performs drift correction with AIM on 2D or 3D localization coordinates of experimental data. Experimental dataset are available at https://doi.org/10.5061/dryad.2v6wwpzw3.
+example_code_2D.m: This code compares the performance of drift correction for AIM, RCC and DME using 2D localization coordinates for experimental dataset of DNA origami (Origami_PAINT.mat) or simulated data (simulationSMLM.mat) available at Dryad (https://doi.org/10.5061/dryad.2v6wwpzw3.)
+example_code_3D.m: This code compares the performance of drift correction for AIM, RCC and DME using 3D localization coordinates of experimental data of simulated data or or experimental data of microtubules (Microtublue_3d.mat).
+example_code_FigureS1.m: This code is used to reproduce Supplementary Figure S1, which shows drift tracking precision under a wide range of image sizes from 128×128 pixels to 2048×2048 pixels.
 
 ## Contact information:
-Hongqiang Ma, University of Pittsburgh, hom15@pitt.edu
+Hongqiang Ma, University of Illinois Urbana-Champaign, mhq@illinois.edu. 
