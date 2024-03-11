@@ -15,12 +15,12 @@ addpath(genpath('./Data'))
 % load(fname)
 
 %% Simulation data
-driftRMS = 0.002;
-frameNUM = 20000;
-imSize = 2048;
-render_zoom = 20;
+driftRMS = 0.002; % pixels
+frameNUM = 20000; % frame number
+imSize = 2048; % pixels
+render_zoom = 20; % magnification in image rendering
 density = 0.005; % number of localized emitters per um^2
-precision = 0.02;
+precision = 0.02; % pixels
 [F,X,Y,Z,driftXT,driftYT,driftZT] = simulationSMLM(driftRMS,frameNUM,imSize,density,precision);
 save('simulationSMLM.mat','F','X','Y','Z','driftXT','driftYT','driftZT');
 

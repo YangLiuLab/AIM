@@ -17,7 +17,7 @@ Users can direacly download the codes and run the demo code on MATLAB.
 Users need to replace the file name when processing users' own datasets.
 
 ## Demo datasets:
-We provide three experimental datasets (Origami_PAINT, Microtublue_3d and Tissue_colon) available at <a href = "https://doi.org/10.5061/dryad.2v6wwpzw3" title = "[Dryad](https://doi.org/10.5061/dryad.2v6wwpzw3)"> Dryad</a>.
+We provide three experimental datasets in MATLAB mat format (Origami_PAINT, Microtublue_3d and Tissue_colon) and one simulated dataset (simulationSMLM) available at <a href = "https://doi.org/10.5061/dryad.2v6wwpzw3" title = "[Dryad](https://doi.org/10.5061/dryad.2v6wwpzw3)"> Dryad</a>.
 
 ## Example files
 We provide four main MATLAB codes as examples to demonstrate how to use AIM.
