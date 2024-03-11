@@ -1,0 +1,11 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(499,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  DriftEstimation.cu
+  Rendering.cpp
+C:\Users\TIRF_PAINT\Desktop\drift-estimation-1.2\dme\DME\Rendering.cpp(32,131): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+  StringUtils.cpp
+     Creating library ..\x64\Release\dme-cpu.lib and object ..\x64\Release\dme-cpu.exp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 2563 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  DME-CPU.vcxproj -> C:\Users\TIRF_PAINT\Desktop\drift-estimation-1.2\dme\x64\Release\dme-cpu.dll
