@@ -34,5 +34,3 @@ We provide four main MATLAB codes as examples to demonstrate how to use AIM.
 <p>
 <b> example_code_FigureS1.m: </b> This code is used to reproduce Supplementary Figure S1, which shows drift tracking precision under a wide range of image sizes from 128×128 pixels to 2048×2048 pixels.
 </p>
-## Contact information:
-Hongqiang Ma, University of Illinois Urbana-Champaign, mhq@illinois.edu. 
