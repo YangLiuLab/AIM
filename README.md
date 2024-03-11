@@ -17,19 +17,19 @@ Users can direacly download the codes and run the demo code on MATLAB.
 Users need to replace the file name when processing users' own datasets.
 
 ## Demo datasets:
-We provide three experimental datasets in MATLAB mat format (Origami_PAINT, Microtublue_3d and Tissue_colon) and one simulated dataset (simulationSMLM) available at <a href = "https://doi.org/10.5061/dryad.2v6wwpzw3" title = "[Dryad](https://doi.org/10.5061/dryad.2v6wwpzw3)"> Dryad</a>.
+We provided three experimental datasets (Origami_PAINT, Microtublue_3d and Tissue_colon) and one simulated dataset (simulationSMLM) in MATLAB mat format available at <a href = "https://doi.org/10.5061/dryad.2v6wwpzw3" title = "[Dryad](https://doi.org/10.5061/dryad.2v6wwpzw3)"> Dryad</a>.
 
 ## Example files
-We provide four main MATLAB codes as examples to demonstrate how to use AIM.
+We provide four main MATLAB codes as examples to demonstrate how to use AIM to perform drift correction using big SMLM dataset with a large field of view.
 <p>
-<b>example_ExperimentalData.m: </b>This code performs drift correction with AIM on 2D or 3D localization coordinates of experimental data. Experimental dataset are available at <a href = "https://doi.org/10.5061/dryad.2v6wwpzw3" title = "[Dryad](https://doi.org/10.5061/dryad.2v6wwpzw3)"> Dryad</a>.
+<b>example_ExperimentalData.m: </b>This code performs drift correction with AIM on 2D or 3D localization coordinates of experimental data. Experimental dataset.
 </p>
 
 <p>
-<b> example_code_2D.m </b>: This code compares the performance of drift correction for AIM, RCC and DME using 2D localization coordinates for experimental dataset of DNA origami (Origami_PAINT.mat) or simulated data (simulationSMLM.mat) available at <a href = "https://doi.org/10.5061/dryad.2v6wwpzw3" title = "[Dryad](https://doi.org/10.5061/dryad.2v6wwpzw3)"> Dryad</a>.
+<b> example_code_2D.m </b>: This code compares the performance of drift correction for AIM, RCC and DME using 2D localization coordinates for experimental dataset of DNA origami (Origami_PAINT.mat) or simulated data (simulationSMLM.mat).
 </p>
 <p>
-<b> </b>example_code_3D.m </b>: This code compares the performance of drift correction for AIM, RCC and DME using 3D localization coordinates of experimental data of simulated data or or experimental data of microtubules (Microtublue_3d.mat) available at <a href = "https://doi.org/10.5061/dryad.2v6wwpzw3" title = "[Dryad](https://doi.org/10.5061/dryad.2v6wwpzw3)"> Dryad</a>.
+<b> example_code_3D.m </b>: This code compares the performance of drift correction for AIM, RCC and DME using 3D localization coordinates of experimental data of simulated data or or experimental data of microtubules (Microtublue_3d.mat).
   </p>
 <p>
 <b> example_code_FigureS1.m: </b> This code is used to reproduce Supplementary Figure S1, which shows drift tracking precision under a wide range of image sizes from 128×128 pixels to 2048×2048 pixels.
