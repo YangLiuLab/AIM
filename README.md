@@ -3,7 +3,8 @@ Adaptive Intersection Maximization (AIM) is a high-speed drift correction lgorit
 
 The details are presented in our paper entitled "Towards drift-free high-throughput nanoscopy through adaptive intersection maximization".
 
-# We provide 4 main MATLAB codes as example to demonstrate how to use AIM.
+# Example files
+We provide 4 main MATLAB codes as example to demonstrate how to use AIM.
 example_ExperimentalData.m: This code performs drift correction with AIM on 2D or 3D localization coordinates of experimental data.
 example_code_2D.m: This code compares the performance of drift correction for AIM, RCC and DME using 2D localization coordinates of experimental data of DNA origami or simulated data.
 example_code_3D.m: This code compares the performance of drift correction for AIM, RCC and DME using 3D localization coordinates of experimental data of simulated data or or experimental data of microtubules.
