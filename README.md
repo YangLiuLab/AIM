@@ -17,14 +17,21 @@ Users can direacly download the codes and run the demo code on MATLAB.
 Users need to replace the file name when processing users' own datasets.
 
 ## Demo datasets:
+<<<<<<< HEAD
 We provide three experimental datasets in MATLAB mat format (Origami_PAINT, Microtublue_3d, Tissue_colon and CTCF_MCF10A_DRB_6h) and one simulated dataset (simulationSMLM) available at <a href = "https://doi.org/10.5061/dryad.2v6wwpzw3" title = "[Dryad](https://doi.org/10.5061/dryad.2v6wwpzw3)"> Dryad</a>.
+=======
+We provided four experimental datasets (Origami_PAINT, Microtublue_3d, Tissue_colon and CTCF_MCF10A_DRB_6h) and one simulated dataset (simulationSMLM) in MATLAB mat format available at <a href = "https://doi.org/10.5061/dryad.2v6wwpzw3" title = "[Dryad](https://doi.org/10.5061/dryad.2v6wwpzw3)"> Dryad</a>.
+>>>>>>> c46a16892736d11a135b6bada45fa8ac95091162
 
 ## Example files
 We provide four main MATLAB codes as examples to demonstrate how to use AIM.
 <p>
+<<<<<<< HEAD
 <b>example_ExperimentalData.m: </b>This code performs drift correction with AIM on 2D or 3D localization coordinates of experimental data. Experimental dataset are available at <a href = "https://doi.org/10.5061/dryad.2v6wwpzw3" title = "[Dryad](https://doi.org/10.5061/dryad.2v6wwpzw3)"> Dryad</a>.
+=======
+<b>example_ExperimentalData.m: </b>This code performs drift correction with AIM on 2D or 3D localization coordinates of experimental data. Sample experimental data are avaialble at <a href = "https://doi.org/10.5061/dryad.2v6wwpzw3" title = "[Dryad](https://doi.org/10.5061/dryad.2v6wwpzw3)"> Dryad</a>.
+>>>>>>> c46a16892736d11a135b6bada45fa8ac95091162
 </p>
-
 <p>
 <b> example_code_2D.m </b>: This code compares the performance of drift correction for AIM, RCC and DME using 2D localization coordinates for experimental dataset of DNA origami (Origami_PAINT.mat) or simulated data (simulationSMLM.mat) available at <a href = "https://doi.org/10.5061/dryad.2v6wwpzw3" title = "[Dryad](https://doi.org/10.5061/dryad.2v6wwpzw3)"> Dryad</a>.
 </p>
