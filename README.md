@@ -39,5 +39,8 @@ We provide four MATLAB codes as examples to demonstrate how to use AIM.
 <b> simulationSMLM.m: </b> This code is used to generate the simulated SMLM dataset from DNA origami structures used in Figure 2 in the main text.
 </p>
 <p>
+<b> save_imSR.m: </b> This MATLAB function is used to save the SMLM dataset into a tif image.
+</p>
+<p>
 <b> Load_ThunderSTORM.m: </b> This code is used to provide a MATLAB function to read the localization dataset (csv files) from the commonly used ThunderSTORM software.
 </p>
