@@ -23,7 +23,8 @@ We provided four experimental datasets (Origami_PAINT, Microtublue_3d, Tissue_co
 We provide four main MATLAB codes as examples to demonstrate how to use AIM.
 <p>
 <b>example_ExperimentalData.m: </b>This code performs drift correction with AIM on 2D or 3D localization coordinates of experimental data. Experimental dataset are available at <a href = "https://doi.org/10.5061/dryad.2v6wwpzw3" title = "[Dryad](https://doi.org/10.5061/dryad.2v6wwpzw3)"> Dryad</a>.
-=======
+</p>
+<p>
 <b>example_ExperimentalData.m: </b>This code performs drift correction with AIM on 2D or 3D localization coordinates of experimental data. Sample experimental data are avaialble at <a href = "https://doi.org/10.5061/dryad.2v6wwpzw3" title = "[Dryad](https://doi.org/10.5061/dryad.2v6wwpzw3)"> Dryad</a>.
 </p>
 <p>
