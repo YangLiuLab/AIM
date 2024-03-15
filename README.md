@@ -20,7 +20,7 @@ Users need to replace the file name when processing users' own datasets.
 We provided four experimental datasets (Origami_PAINT, Microtublue_3d, Tissue_colon and CTCF_MCF10A_DRB_6h) and one simulated dataset (simulationSMLM) in MATLAB mat format available at <a href = "https://doi.org/10.5061/dryad.2v6wwpzw3" title = "[Dryad](https://doi.org/10.5061/dryad.2v6wwpzw3)"> Dryad</a>.
 
 ## Example files
-We provide four main MATLAB codes as examples to demonstrate how to use AIM.
+We provide four MATLAB codes as examples to demonstrate how to use AIM. 
 <p>
 <b>example_ExperimentalData.m: </b>This code performs drift correction with AIM on 2D or 3D localization coordinates of experimental data. Sample experimental data are avaialble at <a href = "https://doi.org/10.5061/dryad.2v6wwpzw3" title = "[Dryad](https://doi.org/10.5061/dryad.2v6wwpzw3)"> Dryad</a>.
 </p>
@@ -33,6 +33,7 @@ We provide four main MATLAB codes as examples to demonstrate how to use AIM.
 <p>
 <b> example_code_FigureS1.m: </b> This code is used to reproduce Supplementary Figure S1, which shows drift tracking precision under a wide range of image sizes from 128×128 pixels to 2048×2048 pixels.
 </p>
+## Other files
 <p>
 <b> simulationSMLM.m: </b> This code is used to generate the simulated SMLM dataset from DNA origami structures used in Figure 2 in the main text.
 </p>
