@@ -1,7 +1,7 @@
 # AIM
 Adaptive Intersection Maximization (AIM) is a high-speed drift correction lgorithm for single molecule localization microscopy. 
 
-Please cite our paper: Hongqiang Ma et al. "Toward drift-free high-throughput nanoscopy through adaptive intersection maximization", Sci. Adv.10, eadm7765(2024). DOI:10.1126/sciadv.adm7765.
+Please cite our paper: Hongqiang Ma et al. <a href = "Toward drift-free high-throughput nanoscopy through adaptive intersection maximization" title = "https://www.science.org/doi/10.1126/sciadv.adm7765"> </a>, Sci. Adv.10, eadm7765(2024). DOI:10.1126/sciadv.adm7765.
 
 All the codes under \DME_RCC are from https://github.com/qnano/drift-estimation published in Jelmer Cnossen, Tao Ju Cui, Chirlmin Joo, and Carlas Smith, "Drift correction in localization microscopy using entropy minimization," Opt. Express 29, 27961-27974 (2021).
 
