@@ -3,7 +3,7 @@
 % Updated by Hongqiang Ma, University of Illinois at Urbana Champaign, February 2024
 % function: [LocAIM, Drift] = AIM(Localizations, trackInterval)
 % Input: 
-%   Localizations: Localization list contains frame index (:,1), x position (:,2), y position (:,3), and z position (:,4)
+%   Localizations: Localization list contains frame index (:,1), x position (:,2), y position (:,3), and z position (:,4); unit: pixel (100nm/pixel)
 %   trackInterval: the tracking interval, unit: frames
 % Output:
 %   LocAIM: the drift corrected localization with the same format to the input localization
@@ -15,7 +15,7 @@
 function [LocAIM, Drift] = AIM(Localizations, trackInterval)
 
 Dim = size(Localizations);
-IntersectD = 0.2;
+IntersectD = 0.2; % unit: pixel (100nm/pixel)
 % IntersectD(IntersectD<0.1) = 0.1;
 
 % check the format of dataset, 2D or 3D
