@@ -12,7 +12,7 @@ RCC and DME require a minimal of 32 GB RAM for the big datasets from large field
 ## Software requirement:
 The provided codes have been tested on MATLAB version 2020b to 2023a on Windows 10 Operating System.
 ### Updated (03/17/2026):
-A new AIM-MAC version is uploaded, which has been compiled and tested on macOS (Apple Silicon M1/M2/M3/M4).
+A recompiled macOS version is uploaded, which has been compiled and tested on macOS (Apple Silicon M1/M2/M3/M4).
 
 
 ## Installation:
